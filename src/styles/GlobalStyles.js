@@ -28,8 +28,9 @@ const GlobalStyles = createGlobalStyle`
             margin: 0 auto;
         }
      
-        h1, h2, h3 {
-            margin-bottom: 20px;
+        h1, h2 {
+            margin: 2rem 0;
+            text-align: center;
             color: #fff;
         }
 `;

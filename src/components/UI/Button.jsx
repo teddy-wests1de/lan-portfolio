@@ -3,7 +3,7 @@ import styled from "styled-components";
 const StyledButton = styled.button`
   background-color: var(--color-sky-blue);
   color: var(--color-light-gray);
-  padding: 1rem 2rem;
+  padding: 0.75rem 2rem;
   margin: 1rem;
   border-radius: 0.25rem;
   border: none;

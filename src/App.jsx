@@ -10,8 +10,10 @@ import Contact from "./components/Sections/Contact";
 
 const StyledApp = styled.div`
   /* margin: 1rem; */
+  max-width: 1000px;
   display: grid;
   border: 1px solid var(--color-dark);
+  text-align: center;
 `;
 
 function App() {
