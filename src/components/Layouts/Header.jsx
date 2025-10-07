@@ -10,6 +10,10 @@ const StyledHeader = styled.header`
   align-items: center;
   padding: 1rem;
   border-bottom: 2px solid var(--color-sky-blue);
+
+  p {
+    font-weight: 700;
+  }
 `;
 
 function Header() {

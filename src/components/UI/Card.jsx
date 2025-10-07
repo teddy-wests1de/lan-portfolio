@@ -13,11 +13,11 @@ const StyledCard = styled.div`
 function Card() {
   return (
     <StyledCard>
-      <div class="project-card">
-        <div class="project-img">
-          <i class="fas fa-chart-line"></i>
+      <div className="project-card">
+        <div className="project-img">
+          <i className="fas fa-chart-line"></i>
         </div>
-        <div class="project-content">
+        <div className="project-content">
           <h4>Corporate Dashboard</h4>
           <p>
             React-based analytics dashboard with real-time data visualization

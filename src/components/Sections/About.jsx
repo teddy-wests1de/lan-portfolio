@@ -4,7 +4,7 @@ function About() {
   return (
     <div id="about">
       <h2>About Me</h2>
-      <Section>
+      <Section bgColor="var(--card-dark)">
         <p>
           I’m a dedicated web developer with a passion for building clean,
           responsive, and user-friendly digital experiences. I specialize in

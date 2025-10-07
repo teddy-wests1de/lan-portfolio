@@ -5,7 +5,7 @@ function Tools() {
   return (
     <div id="tools">
       <h2>Tools</h2>
-      <Section>
+      <Section columns={4} bgColor="var(--color-dark)">
         <Card />
         <Card />
         <Card />

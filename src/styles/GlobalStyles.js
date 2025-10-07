@@ -7,6 +7,15 @@ const GlobalStyles = createGlobalStyle`
         --color-slate-gray: #34495E;
         --color-sky-blue: #3498DB;
         --color-light-gray: #F8F9FA;
+        --navy: #2C3E50;
+            --slate: #34495E;
+            --skyblue: #3498DB;
+            --light: #F8F9FA;
+            --dark: #2d2e33;
+            --accent: #E74C3C;
+            --text-light: #f0f0f0;
+            --text-muted: #b0b0b0;
+            --card-dark: #3a3b40;
     }
 
     *, *::before, *::after {
@@ -29,7 +38,7 @@ const GlobalStyles = createGlobalStyle`
         }
      
         h1, h2 {
-            margin: 2rem 0;
+            margin: 2.5rem 0 1rem;
             text-align: center;
             color: #fff;
         }
