@@ -4,8 +4,8 @@ import Section from "../UI/Section";
 function Tools() {
   return (
     <div id="tools">
-      <h2>Tools</h2>
       <Section columns={4} bgColor="var(--color-dark)">
+        <h2>Tools</h2>
         <Card />
         <Card />
         <Card />

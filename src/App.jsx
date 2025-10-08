@@ -10,9 +10,12 @@ import Contact from "./components/Sections/Contact";
 
 const StyledApp = styled.div`
   /* margin: 1rem; */
-  max-width: 1000px;
+  background-color: var(--card-dark);
+  max-width: 1200px;
   display: grid;
-  border: 1px solid var(--color-dark);
+  margin: 0 auto;
+  justify-content: center;
+  /* border: 1px solid var(--color-light-gray); */
   text-align: center;
 `;
 
@@ -22,13 +25,11 @@ function App() {
       <GlobalStyles />
       <StyledApp>
         <Header />
-        <main>
-          <Hero />
-          <Projects />
-          <Tools />
-          <About />
-          <Contact />
-        </main>
+        <Hero />
+        <Projects />
+        <Tools />
+        <About />
+        <Contact />
         <Footer />
       </StyledApp>
     </>
