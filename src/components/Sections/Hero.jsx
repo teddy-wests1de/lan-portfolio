@@ -9,12 +9,14 @@ const StyledHero = styled.section`
     var(--color-dark),
     var(--color-slate-gray)
   );
+  position: relative;
   margin: 0;
   padding: 2rem 0 3rem;
   display: grid;
   text-align: center;
   grid-template-rows: auto auto auto;
   border-bottom: 1px solid var(--color-sky-blue);
+  gap: 1rem;
 
   h1 {
     line-height: 2.5rem;
@@ -48,10 +50,8 @@ const StyledHero = styled.section`
 function Hero() {
   return (
     <StyledHero>
-      <div className="greeting">
-        <p>Hi, I'm</p>
-        <h3>Elrico Landrew</h3>
-      </div>
+      <p>Hi, I'm Elrico Landrew</p>
+
       <h1>Frontend Web Developer</h1>
       <p>
         I'm a Developer that focuses on building responsive, scalable and

@@ -14,7 +14,7 @@ const StyledForm = styled.form`
 
 const StyledInput = styled.input`
   padding: 1rem;
-  margin: 0 1rem;
+  /* margin: 0 1rem; */
   width: 100%;
   border: 1px solid var(--text-muted);
   border-radius: 4px;

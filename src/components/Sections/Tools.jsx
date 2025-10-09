@@ -4,7 +4,12 @@ import Section from "../UI/Section";
 function Tools() {
   return (
     <div id="tools">
-      <Section columns={4} bgColor="var(--color-dark)">
+      <Section
+        mobileColumns={2}
+        tabletColumns={4}
+        desktopColumns={6}
+        variant="dark"
+      >
         <h2>Tools</h2>
         <Card />
         <Card />

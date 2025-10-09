@@ -1,3 +1,4 @@
+import styled from "styled-components";
 import Card from "../UI/Card";
 import Section from "../UI/Section";
 

@@ -37,10 +37,27 @@ const GlobalStyles = createGlobalStyle`
             margin: 0 auto;
         }
      
-        h1, h2 {
+       h2 {
             margin: 2.5rem 0 1rem;
             text-align: center;
             color: #fff;
+            position: relative;
+        }
+
+        section h2 {
+            position: relative;
+            display: inline-block !important;
+            justify-self: center; /* Align to start of grid cell */
+            width: fit-content; /* Shrink to fit content */
+        }
+        section h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0; /* Position below the text */
+            left: 0;
+            width: 3ch; /* Length of the line */
+            height: 3px; /* Thickness of the line */
+            background: #3498DB; /* Sky blue color */
         }
 `;
 

@@ -6,7 +6,6 @@ const StyledNav = styled.ul`
   top: 100%;
   margin-top: 2px;
   right: 0;
-  /* height: 0; */
   background-color: var(--color-navy);
   padding: 2rem;
   display: none;

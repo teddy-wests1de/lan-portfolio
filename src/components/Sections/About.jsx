@@ -3,7 +3,7 @@ import Section from "../UI/Section";
 function About() {
   return (
     <div id="about">
-      <Section bgColor="var(--card-dark)">
+      <Section bgColor="var(--card-dark)" desktopColumns={2}>
         <h2>About Me</h2>
         <p>
           I’m a dedicated web developer with a passion for building clean,

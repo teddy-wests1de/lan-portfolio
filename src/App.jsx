@@ -15,7 +15,7 @@ const StyledApp = styled.div`
   display: grid;
   margin: 0 auto;
   justify-content: center;
-  /* border: 1px solid var(--color-light-gray); */
+  border: 1px solid var(--text-muted);
   text-align: center;
 `;
 
