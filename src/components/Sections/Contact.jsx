@@ -12,15 +12,15 @@ const StyledContact = styled.div`
 
 function Contact() {
   return (
-    <StyledContact>
-      <div id="contact">
+    <div id="contact">
+      <StyledContact>
         <Section variant="dark" desktopColumns={2}>
           <h2>Contact</h2>
           <ContactInformation />
           <ContactForm />
         </Section>
-      </div>
-    </StyledContact>
+      </StyledContact>
+    </div>
   );
 }
 
