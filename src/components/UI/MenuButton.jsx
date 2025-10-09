@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import { respondTo } from "../../styles/mixins";
 import { SlMenu } from "react-icons/sl";
+import { useMenu } from "../../context/MenuContext";
+import { MdClose } from "react-icons/md";
 
 const StyledMenuButton = styled.button`
   background: none;
@@ -18,10 +20,12 @@ const StyledMenuButton = styled.button`
   }
 `;
 
-function MenuButton() {
+function MenuButton({ onClick }) {
+  const { isMenuOpen } = useMenu();
+
   return (
-    <StyledMenuButton>
-      <SlMenu />
+    <StyledMenuButton onClick={onClick}>
+      {!isMenuOpen ? <SlMenu /> : <MdClose />}
     </StyledMenuButton>
   );
 }

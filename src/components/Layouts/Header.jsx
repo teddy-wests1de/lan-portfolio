@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Navigation from "./Navigation";
 import MenuButton from "../UI/MenuButton";
+import { useMenu } from "../../context/MenuContext";
 
 const StyledHeader = styled.header`
   position: relative;
@@ -21,7 +22,7 @@ function Header() {
     <StyledHeader>
       <p>{` <ELANDREW />`}</p>
       <Navigation />
-      <MenuButton />
+      {/* <MenuButton /> */}
     </StyledHeader>
   );
 }

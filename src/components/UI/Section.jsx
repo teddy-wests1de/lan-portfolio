@@ -4,7 +4,7 @@ import { respondTo } from "../../styles/mixins";
 const StyledSection = styled.section`
   position: relative;
   padding: 1.5rem 1.85rem 4rem;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   display: grid;
   gap: 1rem;
   overflow: hidden;
@@ -17,7 +17,7 @@ const StyledSection = styled.section`
   }
 
   ${respondTo.tabletUp} {
-    padding: 3rem 1.5rem;
+    padding: 2rem 1.5rem 4rem;
     gap: 1.2rem;
     grid-template-columns: repeat(
       ${(props) => props.tabletColumns || props.mobileColumns || 2},
