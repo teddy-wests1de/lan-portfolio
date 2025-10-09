@@ -13,11 +13,13 @@ const StyledContact = styled.div`
 function Contact() {
   return (
     <StyledContact>
-      <Section variant="dark" desktopColumns={2}>
-        <h2>Contact</h2>
-        <ContactInformation />
-        <ContactForm />
-      </Section>
+      <div id="contact">
+        <Section variant="dark" desktopColumns={2}>
+          <h2>Contact</h2>
+          <ContactInformation />
+          <ContactForm />
+        </Section>
+      </div>
     </StyledContact>
   );
 }
