@@ -13,6 +13,7 @@ const StyledHero = styled.section`
   margin: 0;
   padding: 2rem 0 3rem;
   display: grid;
+  height: 60vh;
   text-align: center;
   grid-template-rows: auto auto auto;
   border-bottom: 1px solid var(--color-sky-blue);
